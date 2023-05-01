@@ -8,9 +8,7 @@
   
   <title>Frontend Mentor | Interactive rating component</title>
   <link rel="stylesheet" href="./index.css">
-  <script>
-    
-  </script>
+  
 </head>
 <body>
 
@@ -25,11 +23,11 @@
   to help us improve our offering!</p>
   
   <ul class="list">
-    <li><button>1</button></li>
-    <li><button>2</button></li>
-    <li><button>3</button></li>
-    <li><button>4</button></li>
-    <li><button>5</button></li>
+    <li><button class="bttn">1</button></li>
+    <li><button class="bttn">2</button></li>
+    <li><button class="bttn">3</button></li>
+    <li><button class="bttn">4</button></li>
+    <li><button class="bttn">5</button></li>
   </ul>
 
   <input id="button" type="button" value="SUBMIT">
@@ -38,11 +36,11 @@
 </div>
 
   <!-- Thank you state start -->
-<div class="thank">
+<div class="thank hidden">
  <div class="mobile">
   <img src="images/illustration-thank-you.svg" alt="">
  </div> 
-  <p>You selected <span>2</span> <!-- Add rating here --> out of 5
+  <p class="select">You selected <span id="vote">2</span> <!-- Add rating here --> out of 5
   </p> 
   <p>Thank you!</p> 
  
@@ -56,6 +54,8 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Edwin Lugakingira</a>.
   </div>
+
+<script src="index.js"> </script>
 </body>
 </html>
 

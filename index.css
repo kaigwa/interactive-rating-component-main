@@ -75,6 +75,10 @@ button:hover{
     background-color: hsl(25, 97%, 53%);
 }
 
+button:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
 #button{
     cursor: pointer;
     width: 250px;
@@ -88,4 +92,14 @@ button:hover{
 #button:hover{
     background-color: hsl(0, 0%, 100%);
     color: hsl(25, 97%, 53%);
+}
+
+.hidden{
+    display: none;
+}
+
+.select{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(218, 9%, 25%);
+    height: 30px;
 }
