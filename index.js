@@ -1,4 +1,4 @@
-// creation of all functions
+// define of all functions
 const mainContainer = document.querySelector('.container');
 const thankContainer = document.querySelector('.thank');
 const submitButton = document.getElementById('button');
